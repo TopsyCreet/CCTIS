@@ -1,0 +1,25 @@
+Name is: vdfsvsd
+Gender is:Female
+EyeColor is:Black
+Complexion is:Black
+HairColor is:Black
+Age  is:24
+Address is is:vbv
+State is:Kogi State
+Phone Number is:09082742742
+Height is:6.0
+National Id is:32332
+Weight is:6.0
+Arrest Date is: 26/9/2018
+Arrest Time is:9:38:00 PM
+
+
+
+Officer in Charge is: edbvsfbv
+Charged Type is: Bribery and Corruption
+Conviction Date is: 26/9/2018
+ChargedCode is: 323
+Cell number is: 32
+court Type is: Magistrate Court(District Court)
+Verdict is: 32fwcf
+Username is: user

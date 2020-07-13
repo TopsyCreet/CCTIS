@@ -1,0 +1,17 @@
+Name is: olubuade
+Gender is:Male
+EyeColor is:Blue
+Complexion is:White
+HairColor is:Yellow
+Age  is:32
+Address is is:vv
+State is:Kwara State
+Phone Number is:90232222222
+Complain is:kjnvfin
+Arrest Date is: 27/9/2018
+Arrest Time is:10:40:51 AM
+
+
+
+Officer in Charge is: erv
+Username is: user

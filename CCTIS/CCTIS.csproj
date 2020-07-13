@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0EAA6493-6E28-4AA9-A193-502E338820D1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CCTIS</RootNamespace>
+    <AssemblyName>CCTIS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dpfpdevnet">
+      <HintPath>Service References\dpfpdevnet.dll</HintPath>
+    </Reference>
+    <Reference Include="dpfpengnet">
+      <HintPath>Service References\dpfpengnet.dll</HintPath>
+    </Reference>
+    <Reference Include="dpfpguinet">
+      <HintPath>Service References\dpfpguinet.dll</HintPath>
+    </Reference>
+    <Reference Include="dpfpshrnet">
+      <HintPath>Service References\dpfpshrnet.dll</HintPath>
+    </Reference>
+    <Reference Include="dpfpvernet">
+      <HintPath>Service References\dpfpvernet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="complainant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="complainant.Designer.cs">
+      <DependentUpon>complainant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ComplainantList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComplainantList.Designer.cs">
+      <DependentUpon>ComplainantList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRecords.Designer.cs">
+      <DependentUpon>CRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Criminal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Criminal.Designer.cs">
+      <DependentUpon>Criminal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CriminalList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CriminalList.Designer.cs">
+      <DependentUpon>CriminalList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crRecord.Designer.cs">
+      <DependentUpon>crRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteuser.Designer.cs">
+      <DependentUpon>deleteuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="edituser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="edituser.Designer.cs">
+      <DependentUpon>edituser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="femalecomp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="femalecomp.Designer.cs">
+      <DependentUpon>femalecomp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="femalecri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="femalecri.Designer.cs">
+      <DependentUpon>femalecri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="femalesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="femalesus.Designer.cs">
+      <DependentUpon>femalesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fingerprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fingerprint.Designer.cs">
+      <DependentUpon>fingerprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmccount.Designer.cs">
+      <DependentUpon>frmccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainmenu.Designer.cs">
+      <DependentUpon>mainmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainmenu_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainmenu_Admin.Designer.cs">
+      <DependentUpon>Mainmenu_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="malecomp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="malecomp.Designer.cs">
+      <DependentUpon>malecomp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="malecri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="malecri.Designer.cs">
+      <DependentUpon>malecri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="malesus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="malesus.Designer.cs">
+      <DependentUpon>malesus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUser.Designer.cs">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="searchuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchuser.Designer.cs">
+      <DependentUpon>searchuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRecord.Designer.cs">
+      <DependentUpon>SRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suspect List.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suspect List.Designer.cs">
+      <DependentUpon>Suspect List.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Suspect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Suspect.Designer.cs">
+      <DependentUpon>Suspect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewuser.Designer.cs">
+      <DependentUpon>viewuser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="complainant.resx">
+      <DependentUpon>complainant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComplainantList.resx">
+      <DependentUpon>ComplainantList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRecords.resx">
+      <DependentUpon>CRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Criminal.resx">
+      <DependentUpon>Criminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CriminalList.resx">
+      <DependentUpon>CriminalList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crRecord.resx">
+      <DependentUpon>crRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteuser.resx">
+      <DependentUpon>deleteuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="edituser.resx">
+      <DependentUpon>edituser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="femalecomp.resx">
+      <DependentUpon>femalecomp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="femalecri.resx">
+      <DependentUpon>femalecri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="femalesus.resx">
+      <DependentUpon>femalesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fingerprint.resx">
+      <DependentUpon>fingerprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmccount.resx">
+      <DependentUpon>frmccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainmenu.resx">
+      <DependentUpon>mainmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainmenu_Admin.resx">
+      <DependentUpon>Mainmenu_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="malecomp.resx">
+      <DependentUpon>malecomp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="malecri.resx">
+      <DependentUpon>malecri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="malesus.resx">
+      <DependentUpon>malesus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="searchuser.resx">
+      <DependentUpon>searchuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRecord.resx">
+      <DependentUpon>SRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suspect List.resx">
+      <DependentUpon>Suspect List.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Suspect.resx">
+      <DependentUpon>Suspect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewuser.resx">
+      <DependentUpon>viewuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\ComplainantList.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
